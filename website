@@ -1,0 +1,99 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Decor</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Body Style */
+        body {
+            background-color: #f3e5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            width: 800px;
+            text-align: center;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Title Style */
+        h1 {
+            font-size: 3rem;
+            color: #673ab7;
+            margin-bottom: 20px;
+        }
+
+        /* Button Styles */
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #7e57c2;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: #5e35b1;
+            transform: translateY(-3px);
+        }
+
+        /* Image Styles */
+        .image {
+            display: block;
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+
+        .image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+               
+        <Center><H1>Home Decor Ideas</H1></Center>
+       
+        <a href="https://www.pinterest.com/search/pins/?q=sofas" target="_blank" class="button">Sofas</a>
+        <a href="https://www.pinterest.com/search/pins/?q=beds" target="_blank" class="button">Beds</a>
+        <a href="https://www.pinterest.com/search/pins/?q=coffee%20tables" target="_blank" class="button">Coffee Tables</a>
+        <a href="https://www.pinterest.com/search/pins/?q=dining%20tables" target="_blank" class="button">Dining Tables</a>
+        <a href="https://www.pinterest.com/search/pins/?q=wardrobes" target="_blank" class="button">Wardrobes</a>
+        <a href="https://www.pinterest.com/search/pins/?q=tv%20stands" target="_blank" class="button">TV Stands</a>
+        <a href="https://www.pinterest.com/search/pins/?q=book%20shelves" target="_blank" class="button">Book Shelves</a>
+        <a href="https://www.pinterest.com/search/pins/?q=office%20chairs" target="_blank" class="button">Office Chairs</a>
+        <a href="https://www.pinterest.com/search/pins/?q=dressers" target="_blank" class="button">Dressers</a>
+        <a href="https://www.pinterest.com/search/pins/?q=nightstands" target="_blank" class="button">Nightstands</a>
+        <BR>
+        <Center><H2>Make Your Home Beautiful</H2></Center>
+    </div>
+</body>
+</html>
